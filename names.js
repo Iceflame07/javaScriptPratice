@@ -1,8 +1,14 @@
 function names(array){
-    for(let element of array){
-        console.log(array);
-    };
-}
+    let result = [];
 
- let list = ["Emily","Jack","Sophia","Daniel"];
-        console.log(list);
+    for(let element of array){
+        let object = {
+            name: element,
+            status: "delivered"
+        };
+        result.push(object);
+    };
+    return result;
+};
+
+ module.exports = {names};
