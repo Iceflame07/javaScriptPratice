@@ -5,4 +5,4 @@ const {expenses} = require ("./trackexpenses")
         let result = expenses;
         let sum = [380];
         expect(result).toEqual(expenses);
-    })
+    });
